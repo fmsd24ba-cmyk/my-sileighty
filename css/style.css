@@ -1,7 +1,7 @@
 /* すべてのページに適用される設定 */
 html{
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: "游明朝",serif;
 }
 *{
     box-sizing: border-box;
@@ -13,27 +13,27 @@ p, li, td {
     line-height: 1.7;
 }
 a:link{
-    color: #F07D34;
+    color: #ffffff;
     text-decoration:none;
 }
 a:visited{
-    color: #F07D34;
+    color: #1A237E;
     text-decoration:none;
 }
 a:hover{
-    color: #F07D34;
+    color: #E76F51;
     text-decoration: underline;
 }
 a:active{
-    color: #F07D34;
+    color: #4CAF50;
     text-decoration: underline;
 }
 img{
-    max-width:100%;
+    max-width:199%;
 }
 /* すべてのページに適用 ヘッダー */
 .header{
-    padding-top: 40px;
+    padding-top: 50px;
     background-image: url(../images/stripe.png);
     background-repeat: repeat-x;
 }
@@ -41,7 +41,7 @@ img{
     text-align: center;
 }
 .nav ul{
-    margin: 30px 0 0 0;
+    margin: 70px 0 0 0;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -49,10 +49,10 @@ img{
     gap: 40px;
 }
 .nav a:link{
-    color: #253958;
+    color: #4CAF50;
 }
 .nav a:visited{
-    color: #253958;
+    color: #4CAF50;
 }
 .nav a:hover{
     text-decoration: none;
@@ -62,7 +62,7 @@ img{
 }
 /*すべてのページに適用 ヒーロー */
 .hero{
-    padding: 137px 0;
+    padding: 157px 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -70,7 +70,7 @@ img{
     text-align: center;
 }
 .hero.index {
-    padding: 287px 0;
+    padding: 307px 0;
     background-image: url(../images/home-hero.jpg);
 }
 .hero.access {
@@ -104,7 +104,7 @@ main h2{
     padding-top: 75px;
     padding-bottom: 75px;
     background-color:#253958;
-    color:#FFFFFF;
+    color:#4CAF50;
     text-align:center;
 }
 /* 個別のスタイル */
@@ -126,7 +126,7 @@ main h2{
 /* menu.html */
 .items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 20px;
 }
 
